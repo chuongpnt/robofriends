@@ -4,6 +4,7 @@ import CardList from "../Components/CardList";
 import SearchBox from "../Components/SearchBox";
 import Scroll from "../Components/Scroll";
 import ErrorBoundtry from "../Components/ErrorBoundry";
+import Header from '../Components/Header';
 
 import {setSearchField , requestRobots} from '../actions';
 
@@ -66,7 +67,7 @@ class App extends Component {
 
 		 (
 		<div className="tc">
-		<h1>Robo Friend</h1>
+		<Header />
 		{/*<SearchBox searchChange={this.onSearchChange}/>*/}
 		<SearchBox searchChange={onSearchChange}/>
 		<Scroll>
