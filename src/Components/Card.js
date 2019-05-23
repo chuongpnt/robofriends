@@ -1,4 +1,5 @@
 import React from 'react';
+import "../setupTests";
 
 const Card = (props) => {
 	const {name , id , email } = props;
